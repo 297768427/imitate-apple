@@ -1,0 +1,58 @@
+.iPhoneNavDiv {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(17, 17, 19);
+}
+
+.iPhoneNavEdgeDiv {
+  height: 120px;
+  width: 80%;
+  background-color: rgb(17, 17, 19);
+  margin: 0 auto;
+}
+
+.iPhoneNavContentDiv {
+  height: 120px;
+  width: 60%;
+  background-color: rgb(17, 17, 19);
+  position: absolute;
+  right: 10%;
+  opacity: 0;
+  visibility: collapse;
+  text-align: center;
+}
+
+.iPhoneNavContentDivShow {
+  position: absolute;
+  height: 120px;
+  width: 60%;
+  background-color: rgb(17, 17, 19);
+  opacity: 1;
+  right: 20%;
+  transition: right 0.8s, opacity 0.8s;
+  transition-delay: 0.3s;
+  visibility: visible;
+  text-align: center;
+}
+
+.iPhoneNavChild {
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: bottom;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.iPhoneNavChild:hover span {
+  color: rgb(86, 130, 250);
+}
+
+.iPhoneNavChild img {
+  width: 80px;
+}
+
+.iPhoneNavChild span {
+  color: white;
+  font-size: 12px;
+}

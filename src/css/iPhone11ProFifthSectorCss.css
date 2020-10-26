@@ -1,0 +1,116 @@
+.iPhone11ProFifthSectorDiv {
+  position: relative;
+  width: 100%;
+  height: 3500px;
+  background-color: black;
+  text-align: center;
+  z-index: 3;
+}
+
+.iPhone11ProFifthSectorTitleDiv {
+  display: inline-block;
+  margin-top: 70px;
+  height: 100px;
+  width: 1000px;
+  background-color: black;
+  text-align: left;
+}
+
+.iPhone11ProFifthSectorTitleDiv span {
+  color: #aaaaaa;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#iPhone11ProFifthSectorTitleWhiteText {
+  color: white;
+}
+
+.iPhone11ProFifthSectorImageEachDiv {
+  display: inline-block;
+  width: 1000px;
+  height: 680px;
+  background-color: black;
+  margin-top: 22px;
+}
+
+.iPhone11ProFifthSectorImageEachDiv img {
+  width: 1000px;
+}
+
+.iPhone11ProFifthSectorImageEachDiv h3 {
+  color: white;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.iPhone11ProFifthSectorTitleTwoDiv {
+  display: inline-block;
+  height: 200px;
+  width: 1000px;
+  margin-top: 210px;
+  background-color: black;
+  text-align: left;
+}
+
+.iPhone11ProFifthSectorTitleTwoDiv span {
+  color: #aaaaaa;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.iPhone11ProFifthSectorJumpImageDiv {
+  display: inline-block;
+  width: 1000px;
+}
+
+.iPhone11ProFifthSectorJumpImageDiv img {
+  width: 100%;
+}
+
+.iPhone11ProFifthSectorButtonDiv {
+  position: absolute;
+  display: block;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 440px;
+  height: 75px;
+  background-color: black;
+  margin-top: 130px;
+  border: 2px solid #aaaaaa;
+  border-radius: 55px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.iPhone11ProFifthSectorButtonDiv:hover {
+  border: 4px solid white;
+  transition: border 0.3s;
+}
+
+.iPhone11ProFifthSectorButtonDiv button {
+  color: #aaaaaa;
+  border-radius: 50%;
+  border: 2px solid #aaaaaa;
+  background-color: black;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.iPhone11ProFifthSectorButtonDiv:hover button {
+  color: white;
+  border: 2px solid white;
+  transition: color 0.3s, border 0.3s;
+}
+
+.iPhone11ProFifthSectorButtonDiv span {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.iPhone11ProFifthSectorButtonDiv:hover span {
+  color: white;
+  transition: color 0.3s;
+}

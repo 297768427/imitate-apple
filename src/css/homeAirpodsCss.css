@@ -1,0 +1,32 @@
+.homeAirpodsDiv {
+  cursor: pointer;
+  background-color: black;
+}
+
+.homeAirpodsTextDiv {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.homeAirpodsTextDiv h1 {
+  color: white;
+  font-size: 65px;
+}
+
+.homeAirpodsTextDiv h4 {
+  color: white;
+}
+
+.homeAirpodsTextDiv a {
+  color: #1271cf;
+  font-size: 20px;
+}
+
+.homeAirpodsImageDiv {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.homeAirpodsImageDiv img {
+  width: 55%;
+}

@@ -1,0 +1,342 @@
+.buyIpadProMainDiv {
+  position: relative;
+  width: 100%;
+}
+
+.buyIpadProMainTopDiv {
+  width: 100%;
+  height: 26px;
+  background-color: #f2f2f2;
+  text-align: center;
+  position: relative;
+}
+
+.buyIpadProMainTopDiv span {
+  font-size: 15px;
+}
+
+.buyIpadProMainTopDiv a {
+  color: rgb(19, 108, 241);
+}
+
+.buyIpadProMainTopDiv a:hover {
+  color: rgb(19, 108, 241);
+}
+
+.buyIpadProMainContentDiv {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  text-align: center;
+}
+
+.buyIpadProMainContentImageDiv {
+  position: sticky;
+  top: 50px;
+  display: inline-block;
+  width: 40%;
+  height: 520px;
+  background: white;
+  margin-top: 60px;
+  vertical-align: top;
+  margin-right: 8%;
+}
+
+.buyIpadProMainContentImageDiv img {
+  height: 100%;
+}
+
+.buyIpadProMainContentOptionsDiv {
+  position: relative;
+  display: inline-block;
+  width: 32%;
+  background: white;
+  margin-top: 30px;
+  text-align: left;
+}
+
+.buyIpadProMainContentOptionsSizeDiv {
+  width: 100%;
+  height: 220px;
+  background-color: white;
+  border-bottom: 0.8px solid #aaaaaa;
+}
+
+.buyIpadProMainContentOptionsSizeEachDiv {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #aaaaaa;
+  cursor: pointer;
+}
+
+.buyIpadProMainContentOptionsSizeEachDiv:hover {
+  border: 1px solid black;
+}
+
+.buyIpadProMainContentOptionsSizeEachDiv span:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+  float: left;
+}
+
+.buyIpadProMainContentOptionsSizeEachDiv span:nth-child(2) {
+  font-size: 20px;
+  margin-left: 55px;
+}
+
+.buyIpadProMainContentOptionsResultDiv {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 0.8px solid #aaaaaa;
+}
+
+.buyIpadProMainContentOptionsResultDiv span:nth-child(1) {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.buyIpadProMainContentOptionsResultDiv span:nth-child(1):hover {
+  cursor: pointer;
+  color: rgb(32, 70, 240);
+}
+
+.buyIpadProMainContentOptionsResultDiv span:nth-child(2) {
+  float: right;
+  color: rgb(32, 70, 240);
+}
+
+.buyIpadProMainContentOptionsResultDiv span:nth-child(2):hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.buyIpadProMainContentOptionsColorDiv {
+  width: 100%;
+  height: 170px;
+  background-color: white;
+  margin-top: 30px;
+  position: relative;
+  border-bottom: 0.8px solid #aaaaaa;
+}
+
+.buyIpadProMainContentOptionsColorEachDiv {
+  display: inline-block;
+  height: 96px;
+  width: 48%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+.buyIpadProMainContentOptionsColorEachDiv:hover {
+  border: 1px solid black;
+}
+
+.buyIpadProMainContentOptionsColorEachDiv span {
+  display: inline-block;
+  margin-top: 56px;
+}
+
+.buyIpadProMainContentOptionsColorEachDiv:nth-child(2) {
+  margin-right: 4%;
+}
+
+.buyIpadProMainContentOptionsColorDark {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #abaeb1;
+}
+
+.buyIpadProMainContentOptionsColorLight {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #dddfde;
+}
+
+.buyIpadProMainContentOptionsStorageDiv {
+  width: 100%;
+  height: 280px;
+  background-color: white;
+  margin-top: 30px;
+  position: relative;
+  border-bottom: 0.8px solid #aaaaaa;
+}
+
+.buyIpadProMainContentOptionsStorageEachDiv {
+  display: inline-block;
+  height: 96px;
+  width: 48%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  vertical-align: top;
+}
+
+.buyIpadProMainContentOptionsStorageEachDiv:hover {
+  border: 1px solid black;
+}
+
+.buyIpadProMainContentOptionsStorageEachDiv:nth-child(2),
+.buyIpadProMainContentOptionsStorageEachDiv:nth-child(4) {
+  margin-right: 4%;
+}
+
+.buyIpadProMainContentOptionsStorageEachDiv:nth-child(4),
+.buyIpadProMainContentOptionsStorageEachDiv:nth-child(5) {
+  margin-top: 15px;
+}
+
+.buyIpadProMainContentOptionsStorageEachBigSpan {
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.buyIpadProMainContentOptionsStorageEachSmallSpan {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buyIpadProMainContentOptionsConnectDiv {
+  width: 100%;
+  height: 170px;
+  background-color: white;
+  margin-top: 30px;
+  position: relative;
+  border-bottom: 0.8px solid #aaaaaa;
+}
+
+.buyIpadProMainContentOptionsConnectEachDiv {
+  display: inline-block;
+  height: 96px;
+  width: 48%;
+  background-color: white;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  vertical-align: top;
+}
+
+.buyIpadProMainContentOptionsConnectEachDiv span:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.buyIpadProMainContentOptionsConnectEachDiv:hover {
+  border: 1px solid black;
+}
+
+.buyIpadProMainContentOptionsConnectEachDiv:nth-child(2) {
+  margin-right: 4%;
+}
+
+.buyIpadProMainContentOptionsFinalDiv {
+  width: 100%;
+  background-color: #fafafa;
+  position: relative;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.buyIpadProMainContentOptionsFinalDiv > span {
+  color: gray;
+  font-size: 15px;
+}
+
+.buyIpadProMainContentOptionsFinalDiv a {
+  font-size: 15px;
+  color: #0066cc;
+}
+
+.buyIpadProMainContentOptionsFinalDiv a:hover {
+  color: #0066cc;
+}
+
+.buyIpadProMainContentOptionsFinalDiv hr {
+  width: 100%;
+  border: 0.5px solid rgb(165, 165, 165);
+}
+
+.buyIpadProMainContentOptionsFinalDiv img {
+  width: 25px;
+  vertical-align: top;
+}
+
+#buyIpadProMainContentOptionsFinalHeart {
+  width: 30px;
+  margin-top: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+.buyIpadProMainContentOptionsFinalBesideRedDiv {
+  display: inline-block;
+  width: 75%;
+  background-color: #fafafa;
+}
+
+.buyIpadProMainContentOptionsFinalBesideRedDiv > span {
+  font-weight: 600;
+}
+
+.buyIpadProMainContentOptionsFinalBesideRedDiv > p {
+  font-size: 15px;
+}
+
+#buyIpadProMainContentOptionsFinalAdd {
+  font-size: 17px;
+  font-weight: 500;
+  vertical-align: top;
+  float: right;
+  color: #0066cc;
+  cursor: pointer;
+}
+
+#buyIpadProMainContentOptionsFinalAdd:hover {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+#buyIpadProMainContentOptionsFinalButton {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 80%;
+  border-radius: 5px;
+  background-color: #1b81d1;
+  color: white;
+  border: 1px solid #225fcf;
+  font-size: 18px;
+  height: 34px;
+}
+
+#buyIpadProMainContentOptionsFinalButton:hover {
+  background-color: #3394df;
+}

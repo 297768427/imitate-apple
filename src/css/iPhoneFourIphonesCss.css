@@ -1,0 +1,70 @@
+.iPhoneFourIphonesDiv {
+  width: 100%;
+  height: 1050px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.iPhoneFourIphonesTitleDiv {
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.iPhoneFourIphonesTypeDiv {
+  margin: auto;
+  width: 960px;
+}
+
+.iPhoneFourIphonesEachDiv {
+  width: 200px;
+  height: 700px;
+  background-color: #f2f2f2;
+  float: left;
+  margin: 0 20px;
+}
+
+.iPhoneFourIphonesEachImageDiv {
+  height: 234px;
+}
+
+.iPhoneFourIphonesEachImageDiv img {
+  width: 180px;
+}
+
+.iPhoneFourIphonesEachTextDiv {
+  margin-top: 20px;
+  text-align: left;
+  height: 330px;
+}
+
+.iPhoneFourIphonesEachTextDiv span {
+  font-size: 15px;
+}
+
+.iPhoneFourIphonesEachBottomDiv {
+  text-align: start;
+}
+
+.iPhoneFourIphonesEachBottomDiv button {
+  border: 0;
+  border-radius: 20px;
+  width: 50px;
+  background-color: #0077ed;
+  color: white;
+}
+
+.iPhoneFourIphonesEachBottomDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.iPhoneFourIphonesBottomLinkDiv {
+  float: left;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.iPhoneFourIphonesBottomLinkDiv a {
+  font-size: 25px;
+  color: #0066cc;
+}

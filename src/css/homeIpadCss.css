@@ -1,0 +1,31 @@
+.homeIpadDiv {
+  cursor: pointer;
+}
+
+.homeIpadTextDiv {
+  width: 100%;
+  margin-top: 70px;
+  background: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.homeIpadTextDiv h5 {
+  color: black;
+  font-family: cursive;
+  font-size: 35px;
+}
+
+.homeIpadTextDiv h1 {
+  color: black;
+  font-size: 65px;
+}
+
+.homeIpadTextDiv a {
+  color: #1271cf;
+  font-size: 20px;
+}
+
+.homeIpadAnimationDiv {
+  width: 100%;
+}

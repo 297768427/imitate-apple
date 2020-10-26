@@ -1,0 +1,12 @@
+.iPhone11ProFourthSector {
+  width: 100%;
+  height: 1300px;
+  position: relative;
+  background-color: aqua;
+  z-index: 2;
+}
+
+.iPhone11ProFourthSector img {
+  height: 650px;
+  width: 100%;
+}

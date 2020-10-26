@@ -1,0 +1,184 @@
+.iPhone11ProEleventhSectorDiv {
+  position: relative;
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+.iPhone11ProEleventhSectorTextOneDiv {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-color: #111111;
+  display: inline-block;
+}
+
+.iPhone11ProEleventhSectorTextOneDiv h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 600;
+  margin-top: 75px;
+}
+
+.iPhone11ProEleventhSectorTextOneContainerDiv {
+  display: inline-block;
+  width: 76%;
+  height: 400px;
+  background-color: #111111;
+  margin-top: 55px;
+}
+
+.iPhone11ProEleventhSectorTextOneContainerEachDiv {
+  display: inline-block;
+  width: 33.3%;
+  height: 200px;
+  background-color: #111111;
+  text-align: left;
+  vertical-align: top;
+}
+
+.iPhone11ProEleventhSectorTextOneContainerEachDiv h2 {
+  color: white;
+  font-size: 60px;
+}
+
+.iPhone11ProEleventhSectorTextOneContainerEachDiv span {
+  color: #aaaaaa;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.iPhone11ProEleventhSectorTextTwoDiv {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  background-color: black;
+  text-align: left;
+  z-index: 4;
+}
+
+.iPhone11ProEleventhSectorTextTwoDiv h1 {
+  color: #aaaaaa;
+  font-size: 85px;
+  font-weight: 640;
+  margin-top: 70px;
+  margin-left: 10%;
+}
+
+.iPhone11ProEleventhSectorTextTwoDiv h2 {
+  color: white;
+  font-size: 80px;
+  font-weight: 640;
+  margin-left: 10%;
+}
+
+.iPhone11ProEleventhSectorTextTwoDiv h2:nth-child(4) {
+  margin-bottom: 150px;
+}
+
+.iPhone11ProEleventhSectorTextThreeDiv {
+  position: relative;
+  width: 100%;
+  height: 2200px;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadDiv {
+  position: relative;
+  display: inline-block;
+  width: 76%;
+  height: 1000px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 150px;
+  text-align: left;
+  z-index: 3;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadDiv h1 {
+  color: white;
+  font-size: 85px;
+  font-weight: 600;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadDiv span {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 33px;
+  font-weight: 500;
+  color: white;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadLineDiv {
+  display: inline-block;
+  border-left: 2px solid #aaaaaa;
+  height: 100px;
+  margin-top: 75px;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadLineRightTextDiv {
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 15px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 75px;
+}
+
+.iPhone11ProEleventhSectorTextThreeHeadLineRightTextDiv h5 {
+  color: #aaaaaa;
+}
+
+.iPhone11ProEleventhSectorTextThreeContainerDiv {
+  width: 76%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0);
+  display: inline-block;
+  margin-top: 50px;
+  z-index: 3;
+}
+
+.iPhone11ProEleventhSectorTextThreeContainerEachDiv {
+  width: 28%;
+  height: 450px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.iPhone11ProEleventhSectorTextThreeContainerEachDiv h1 {
+  color: white;
+  font-size: 55px;
+}
+
+.iPhone11ProEleventhSectorTextThreeContainerEachDiv h5 {
+  color: white;
+  font-size: 18px;
+}
+
+.iPhone11ProEleventhSectorTextThreeContainerEachDiv span {
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
+.iPhone11ProEleventhSectorTextThreeBackDiv {
+  position: absolute;
+  top: -520px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 2720px;
+}
+
+.iPhone11ProEleventhSectorTextThreeBackStickyDiv {
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.iPhone11ProEleventhSectorTextThreeBackStickyDiv img {
+  width: 100%;
+  height: 580px;
+}

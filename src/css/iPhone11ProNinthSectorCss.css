@@ -1,0 +1,63 @@
+.iPhone11ProNinthSectorDiv {
+  width: 100%;
+  height: 4140px;
+  background-color: black;
+  text-align: center;
+}
+
+.iPhone11ProNinthSectorTextDiv {
+  display: inline-block;
+  position: relative;
+  height: 420px;
+  width: 80%;
+  background-color: black;
+  margin-top: 150px;
+  text-align: left;
+}
+
+.iPhone11ProNinthSectorTextDiv h1 {
+  color: white;
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.iPhone11ProNinthSectorTextDiv h1:nth-child(1) {
+  margin-top: 40px;
+  color: #aaaaaa;
+}
+
+.iPhone11ProNinthSectorTextDiv span {
+  display: inline-block;
+  margin-top: 30px;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.iPhone11ProNinthSectorFaceDiv {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.iPhone11ProNinthSectorFaceDiv img {
+  width: 100%;
+}
+
+.iPhone11ProNinthSectorModelsDiv {
+  position: relative;
+  width: 100%;
+  height: 1600px;
+  background-color: black;
+  text-align: center;
+}
+
+.iPhone11ProNinthSectorModelsEachDiv {
+  width: 80%;
+  display: inline-block;
+  margin-top: 240px;
+}
+
+.iPhone11ProNinthSectorModelsEachDiv img {
+  width: 100%;
+}

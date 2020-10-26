@@ -1,0 +1,52 @@
+.iPhone11ProSeventhSectorDiv {
+  position: relative;
+  width: 100%;
+  height: 2320px;
+  background-color: black;
+  text-align: center;
+}
+
+.iPhone11ProSeventhSectorOneDiv {
+  display: inline-block;
+  width: 96%;
+}
+
+.iPhone11ProSeventhSectorOneDiv img {
+  width: 100%;
+  filter: grayscale(100%);
+  margin-top: 200px;
+}
+
+.iPhone11ProSeventhSectorTwoDiv {
+  display: inline-block;
+  width: 96%;
+  background-color: black;
+  position: relative;
+  margin-top: 250px;
+}
+
+.iPhone11ProSeventhSectorTwoEachDiv {
+  display: inline-block;
+  width: 40%;
+  height: 700px;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  background-color: red;
+  position: relative;
+}
+
+.iPhone11ProSeventhSectorTwoEachDiv img {
+  width: 100%;
+  height: 700px;
+}
+
+.iPhone11ProSeventhSectorThreeDiv {
+  display: inline-block;
+  width: 96%;
+  margin-top: 250px;
+}
+
+.iPhone11ProSeventhSectorThreeDiv img {
+  width: 100%;
+  height: 700px;
+}

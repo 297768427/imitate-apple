@@ -1,0 +1,112 @@
+.iPadWhyIpadDiv {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.iPadWhyIpadTitleDiv {
+  display: inline-block;
+  height: 160px;
+  background-color: #f2f2f2;
+  margin-top: 100px;
+}
+
+.iPadWhyIpadTitleDiv h1 {
+  font-size: 50px;
+}
+
+.iPadWhyIpadTwoRowDiv {
+  display: inline-block;
+  width: 90%;
+  height: 460px;
+  background-color: white;
+  margin-bottom: 26px;
+}
+
+.iPadWhyIpadTwoRowOneImageDiv {
+  display: inline-block;
+  width: 68%;
+  height: 100%;
+  background-color: white;
+  float: left;
+}
+
+.iPadWhyIpadTwoRowOneImageDiv img {
+  height: 100%;
+  float: left;
+}
+
+.iPadWhyIpadTwoRowOneTextDiv {
+  display: inline-block;
+  margin-top: 100px;
+  width: 20%;
+  height: 300px;
+  background-color: white;
+  float: left;
+}
+
+.iPadWhyIpadTwoRowDiv h1 {
+  font-size: 42px;
+}
+
+.iPadWhyIpadTwoRowDiv span {
+  font-size: 20px;
+}
+
+.iPadWhyIpadTwoRowDiv a {
+  color: #0066cc;
+  font-size: 20px;
+}
+
+.iPadWhyIpadTwoRowTwoImageDiv {
+  display: inline-block;
+  width: 68%;
+  height: 100%;
+  background-color: white;
+  float: right;
+}
+
+.iPadWhyIpadTwoRowTwoImageDiv img {
+  height: 100%;
+  float: right;
+}
+
+.iPadWhyIpadTwoRowTwoTextDiv {
+  display: inline-block;
+  margin-top: 100px;
+  width: 20%;
+  height: 300px;
+  background-color: white;
+  float: right;
+}
+
+.iPadWhyIpadTwoColumnDiv {
+  display: inline-block;
+  width: 44%;
+  height: 590px;
+  margin: 20px 1%;
+  background-color: white;
+  position: relative;
+  vertical-align: top;
+}
+
+.iPadWhyIpadTwoColumnDiv img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.iPadWhyIpadTwoColumnDiv h1 {
+  margin-top: 45px;
+  font-size: 42px;
+}
+
+.iPadWhyIpadTwoColumnDiv p {
+  font-size: 20px;
+}
+
+.iPadWhyIpadTwoColumnDiv a {
+  color: #0066cc;
+  font-size: 20px;
+}

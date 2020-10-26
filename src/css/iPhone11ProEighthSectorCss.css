@@ -1,0 +1,145 @@
+.iPhone11ProEighthSectorDiv {
+  position: relative;
+  width: 100%;
+  height: 2200px;
+  background-color: black;
+  text-align: center;
+}
+
+.iPhone11ProEighthSectorBigOneDiv {
+  display: inline-block;
+  width: 100%;
+  height: 1600px;
+  position: relative;
+  z-index: 5;
+}
+
+.iPhone11ProEighthSectorSmallOneDiv {
+  display: inline-block;
+  width: 100%;
+  height: 640px;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 5;
+  position: relative;
+}
+
+.iPhone11ProEighthSectorSmallOneDiv img {
+  width: 76%;
+  height: 600px;
+  margin-top: 240px;
+}
+
+.iPhone11ProEighthSectorSmallTwoDiv {
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  z-index: 5;
+  background: rgba(255, 255, 255, 0);
+  text-align: left;
+}
+
+.iPhone11ProEighthSectorSmallTwoDiv h1:nth-child(1) {
+  color: #aaaaaa;
+  margin-top: 300px;
+  margin-left: 100px;
+  font-size: 65px;
+}
+
+.iPhone11ProEighthSectorSmallTwoDiv h1:nth-child(2) {
+  color: white;
+  margin-left: 100px;
+  font-size: 65px;
+}
+
+.iPhone11ProEighthSectorSmallThreeDiv {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 600px;
+  z-index: 4;
+  margin-top: -1200px;
+  overflow: hidden;
+}
+
+.iPhone11ProEighthSectorSmallThreeDiv img {
+  width: 100%;
+  filter: brightness(0%);
+}
+
+.iPhone11ProEighthSectorBigTwoDiv {
+  width: 96%;
+  height: 470px;
+  position: sticky;
+  top: 0;
+  display: inline-block;
+  background: black;
+  z-index: 3;
+  text-align: center;
+}
+
+.iPhone11ProEighthSectorSmallFourDiv {
+  display: inline-block;
+  position: relative;
+  width: 40%;
+  background-color: white;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.iPhone11ProEighthSectorSmallFourDiv img {
+  width: 100%;
+}
+
+.iPhone11ProEighthSectorExtraDiv {
+  position: absolute;
+  z-index: 3;
+  background: black;
+  width: 100%;
+  height: 1350px;
+  top: 900px;
+}
+
+.iPhone11ProEighthSectorButtonDiv {
+  display: inline-block;
+  border: 2px solid #aaaaaa;
+  border-radius: 40px;
+  width: 630px;
+  height: 70px;
+  margin-top: 50px;
+}
+
+.iPhone11ProEighthSectorButtonDiv button {
+  border-radius: 50%;
+  border: 2px solid #aaaaaa;
+  color: #aaaaaa;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: black;
+  margin-top: 16px;
+  margin-right: 14px;
+}
+
+.iPhone11ProEighthSectorButtonDiv span {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.iPhone11ProEighthSectorButtonDiv:hover {
+  border: 4px solid white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.iPhone11ProEighthSectorButtonDiv:hover button {
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+.iPhone11ProEighthSectorButtonDiv:hover span {
+  color: white;
+  transition: 0.3s;
+}

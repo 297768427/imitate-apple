@@ -1,0 +1,66 @@
+.iPhone11ProNavDiv {
+  height: 50px;
+  width: 1005;
+  background-color: #111111;
+  top: 0;
+  position: sticky;
+  z-index: 1050;
+}
+
+.iPhone11ProNavLeftDiv {
+  width: 200px;
+  background-color: #111111;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 190px;
+}
+
+.iPhone11ProNavLeftDiv a {
+  font-size: 20px;
+  color: #e0e0e0;
+  font-weight: 600;
+}
+
+.iPhone11ProNavLeftDiv a:hover {
+  font-size: 20px;
+  color: #e0e0e0;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.iPhone11ProNavRightDiv {
+  width: 380px;
+  height: 30px;
+  background-color: #111111;
+  margin-left: 64%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.iPhone11ProNavRightDiv a {
+  font-size: 13px;
+  color: #e0e0e0;
+  margin-right: 24px;
+}
+
+.iPhone11ProNavRightDiv a:hover {
+  text-decoration: none;
+}
+
+.iPhone11ProNavRightDiv button {
+  border-radius: 20px;
+  border: 0;
+  width: 55px;
+  background-color: #0077ed;
+  color: white;
+  display: inline-block;
+  margin: 4px;
+  font-size: 14px;
+}
+
+.iPhone11ProNavRightDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}

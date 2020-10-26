@@ -1,0 +1,241 @@
+.ipadFourRowsDiv {
+  width: 100%;
+  text-align: center;
+}
+.ipadFourRowsTitleDiv {
+  display: inline-block;
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+
+.ipadFourRowsTitleDiv h1 {
+  font-size: 50px;
+}
+
+.ipadFourRowsIpadProDiv {
+  width: 100%;
+  height: 580px;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(1) {
+  float: right;
+  width: 68%;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(1) img {
+  width: 100%;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) {
+  float: right;
+  width: 20%;
+  height: 300px;
+
+  margin-top: 10%;
+  margin-right: 30px;
+  text-align: start;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) h1 {
+  font-size: 50px;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) span {
+  font-size: 18px;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) button {
+  border-radius: 20px;
+  border: 0;
+  width: 65px;
+  height: 35px;
+  background-color: #0077ed;
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.ipadFourRowsIpadProDiv div:nth-child(2) a {
+  font-size: 16px;
+  color: #0066cc;
+}
+
+.ipadFourRowsIpadAirDiv {
+  height: 680px;
+  width: 80%;
+  float: left;
+}
+
+.ipadFourRowsIpadAirDiv img {
+  width: 90%;
+}
+
+.ipadFourRowsIpadAirTextDiv {
+  position: absolute;
+  width: 205px;
+  height: 290px;
+  left: 63%;
+  top: 1060px;
+}
+
+.ipadFourRowsIpadAirTextDiv h1 {
+  font-size: 50px;
+}
+
+.ipadFourRowsIpadAirTextDiv p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ipadFourRowsIpadAirTextDiv span {
+  font-size: 18px;
+}
+
+.ipadFourRowsIpadAirTextDiv button {
+  border-radius: 20px;
+  border: 0;
+  width: 65px;
+  height: 35px;
+  background-color: #0077ed;
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.ipadFourRowsIpadAirTextDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.ipadFourRowsIpadAirTextDiv a {
+  font-size: 16px;
+  color: #0066cc;
+}
+
+.ipadFourRowsIpadDiv {
+  display: inline-block;
+  height: 550px;
+  width: 100%;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(1) {
+  float: right;
+  width: 68%;
+  height: 500px;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(1) img {
+  height: 440px;
+  float: left;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) {
+  float: right;
+  width: 20%;
+  height: 400px;
+  margin-top: 100px;
+  text-align: start;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) h1 {
+  font-size: 50px;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) span {
+  font-size: 18px;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) button {
+  border-radius: 20px;
+  border: 0;
+  width: 65px;
+  height: 35px;
+  background-color: #0077ed;
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.ipadFourRowsIpadDiv div:nth-child(2) a {
+  font-size: 16px;
+  color: #0066cc;
+}
+
+.ipadFourRowsIpadMiniDiv {
+  width: 100%;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(1) {
+  float: left;
+  width: 57%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(1) img {
+  height: 500px;
+  float: right;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) {
+  float: left;
+  width: 20%;
+  height: 300px;
+  margin-top: 140px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) h1 {
+  font-size: 50px;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) span {
+  font-size: 18px;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) button {
+  border-radius: 20px;
+  border: 0;
+  width: 65px;
+  height: 35px;
+  background-color: #0077ed;
+  color: white;
+  font-size: 17px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.ipadFourRowsIpadMiniDiv div:nth-child(2) a {
+  font-size: 16px;
+  color: #0066cc;
+}

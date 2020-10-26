@@ -1,0 +1,60 @@
+.iPhoneiPhone11ProDiv {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+.iPhonetradeIphoneAlertDiv {
+  width: 100%;
+  height: 40px;
+  background-color: rgb(34, 34, 34);
+  display: table;
+}
+
+.iPhonetradeIphoneAlertDiv span {
+  color: white;
+  font-size: 13px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.iPhonetradeIphoneAlertDiv a {
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.iPhonetradeIphoneAlertDiv a:hover {
+  color: white;
+}
+
+.iphoneiPhone11ProTextDiv {
+  margin-top: 50px;
+}
+
+.iphoneiPhone11ProTextDiv h2,
+.iphoneiPhone11ProTextDiv h1 {
+  color: white;
+}
+
+.iphoneiPhone11ProTextDiv button {
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 119, 237);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.iphoneiPhone11ProTextDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.iphoneiPhone11ProImageDiv {
+  margin-top: 100px;
+}
+
+.iphoneiPhone11ProImageDiv img {
+  width: 800px;
+}

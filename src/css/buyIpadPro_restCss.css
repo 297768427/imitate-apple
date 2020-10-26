@@ -1,0 +1,228 @@
+.buyIpadProRestDiv {
+  position: relative;
+  width: 100%;
+  height: 290px;
+  background-color: white;
+  text-align: center;
+}
+
+.buyIpadProRestFirstDiv {
+  display: inline-block;
+  height: 140px;
+  margin-top: 70px;
+  position: relative;
+  cursor: pointer;
+  transition: width 0.5s;
+  background-color: white;
+  transition: all 0.4s;
+  white-space: nowrap;
+}
+
+.buyIpadProRestFirstDivWide {
+  position: absolute;
+  width: 100%;
+  height: 550px;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 1;
+  white-space: nowrap;
+  overflow-x: scroll;
+  transition: all 0.4s;
+  z-index: 5;
+}
+
+.buyIpadProRestFirstDivWideCross {
+  position: fixed;
+  top: 80px;
+  left: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.buyIpadProRestFirstDivWideCross:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.buyIpadProRestFirstDivWideLeft {
+  position: fixed;
+  top: 300px;
+  left: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.buyIpadProRestFirstDivWideLeft:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.buyIpadProRestFirstDivWideRight {
+  position: fixed;
+  top: 300px;
+  right: 30px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  height: 42px;
+  width: 42px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.buyIpadProRestFirstDivWideRight:hover {
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.buyIpadProRestFirstDivWide::-webkit-scrollbar {
+  display: none;
+}
+
+.buyIpadProRestFirstDiv:hover {
+  height: 150px;
+  transition: height 0.4s;
+}
+
+.buyIpadProRestFirstDiv img {
+  height: 100%;
+  margin: 0 1px;
+}
+
+.buyIpadProRestFirstDivWide img {
+  height: 100%;
+  margin: 0 1px;
+  transition: all 0.5s;
+}
+
+.buyIpadProRestSecondDiv {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.buyIpadProRestSecondDiv img {
+  display: inline-block;
+  width: 75%;
+  margin-top: 30px;
+}
+
+.buyIpadProRestSecondDiv span:nth-child(4) {
+  position: absolute;
+  top: 100%;
+  left: 29%;
+}
+
+.buyIpadProRestSecondDiv span:nth-child(5) {
+  position: absolute;
+  top: 100%;
+  left: 52%;
+}
+
+.buyIpadProRestSecondDiv span:nth-child(6) {
+  position: absolute;
+  top: 100%;
+  left: 70%;
+}
+
+.buyIpadProRestThirdDiv {
+  position: relative;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.buyIpadProRestThirdPencilDiv {
+  width: 80%;
+  height: 470px;
+  display: inline-block;
+  background-color: #fafafa;
+  position: relative;
+}
+
+.buyIpadProRestThirdPencilImageDiv {
+  position: relative;
+  float: right;
+  height: 100%;
+}
+
+.buyIpadProRestThirdPencilImageDiv img {
+  height: 100%;
+}
+
+.buyIpadProRestThirdPencilTextDiv {
+  position: relative;
+  float: left;
+  height: 50%;
+  width: 35%;
+  background-color: #fafafa;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.buyIpadProRestThirdPencilTextDiv a {
+  font-size: 18px;
+  margin-right: 15px;
+  color: rgb(10, 68, 255);
+}
+
+.buyIpadProRestThirdPencilTextDiv a:hover {
+  color: rgb(10, 68, 255);
+}
+
+.buyIpadProRestThirdBoardDiv {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  height: 470px;
+  background-color: #fafafa;
+  margin-top: 20px;
+}
+
+.buyIpadProRestThirdBoardImageDiv {
+  position: relative;
+  float: left;
+  height: 100%;
+}
+
+.buyIpadProRestThirdBoardImageDiv img {
+  height: 100%;
+}
+
+.buyIpadProRestThirdBoardTextDiv {
+  float: right;
+  height: 50%;
+  width: 40%;
+  background-color: #fafafa;
+  text-align: center;
+  margin-top: 140px;
+}
+
+.buyIpadProRestThirdBoardTextDiv a {
+  font-size: 18px;
+  margin-right: 15px;
+  color: rgb(10, 68, 255);
+}
+
+.buyIpadProRestThirdBoardTextDiv a:hover {
+  color: rgb(10, 68, 255);
+}

@@ -1,0 +1,29 @@
+.iPhoneTwoSectionsDiv {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.iPhoneTwoSectionsEachDiv {
+  display: inline-block;
+  background-color: #f2f2f2;
+  width: 340px;
+  height: 370px;
+  margin: 100px 30px;
+  vertical-align: top;
+}
+
+.iPhoneTwoSectionsEachDiv img {
+  height: 70px;
+  display: inline-block;
+  margin-bottom: 35px;
+}
+
+.iPhoneTwoSectionsEachDiv span {
+  font-size: 21px;
+}
+
+.iPhoneTwoSectionsEachDiv a {
+  font-size: 22px;
+  color: #0066cc;
+}

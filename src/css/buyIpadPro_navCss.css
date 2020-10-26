@@ -1,0 +1,38 @@
+.buyIpadProNavDiv {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #aaaaaa;
+  z-index: 2000;
+}
+
+.buyIpadProNavInnerDiv {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+}
+
+.buyIpadProNavInnerDiv span {
+  margin-left: 190px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.buyIpadProNavInnerDiv a:nth-child(2) {
+  margin-left: 400px;
+}
+
+.buyIpadProNavInnerDiv a {
+  margin-right: 30px;
+  font-size: 14px;
+  color: black;
+}
+
+.buyIpadProNavInnerDiv a:hover {
+  color: rgb(19, 108, 241);
+  text-decoration: none;
+}

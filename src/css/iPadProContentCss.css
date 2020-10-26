@@ -1,0 +1,280 @@
+.iPadProContentEdgeDiv {
+  height: 100vh;
+  background-color: #fafafa;
+  text-align: center;
+  position: fixed;
+}
+
+.iPadProContentDiv {
+  display: flex;
+}
+
+.iPadProContentEachDiv {
+  width: 680px;
+  height: 440px;
+  background-color: #fafafa;
+  margin-left: 170px;
+  margin-top: 10px;
+  text-align: start;
+  position: relative;
+}
+
+.iPadProContentEachDiv h1 {
+  margin-top: 18%;
+  font-size: 78px;
+  margin-bottom: 30px;
+}
+
+.iPadProContentEachDiv > a {
+  color: #0066cc;
+  font-size: 22px;
+  display: inline-block;
+  margin: auto 15px;
+}
+
+.iPadProContentEachDiv img {
+  height: 440px;
+}
+
+#iPadProContentEachVideoOneDiv {
+  width: 940px;
+}
+
+#iPadProContentEachVideoOneDiv video {
+  width: 100%;
+}
+
+.iPadProContentEachDiv > span {
+  font-size: 35px;
+  color: rgb(97, 97, 97);
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 8%;
+  line-height: 40px;
+}
+
+.iPadProContentEachDiv p {
+  font-size: 21px;
+  color: rgb(97, 97, 97);
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 45px;
+  float: right;
+}
+
+#iPadProContentEachVideoTwoDiv {
+  width: 774px;
+}
+
+#iPadProContentEachVideoTwoDiv video {
+  height: 440px;
+}
+
+#iPadProContentEachVideoTwoReplayHidden {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  cursor: pointer;
+  visibility: collapse;
+  opacity: 0;
+}
+
+#iPadProContentEachVideoTwoReplay {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  cursor: pointer;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.7s;
+}
+
+#iPadProContentEachVideoTwoReplay span {
+  color: #0066cc;
+  font-size: 18px;
+}
+
+#iPadProContentEachVideoTwoReplay:hover span {
+  text-decoration: underline;
+}
+
+#iPadProContentEachVideoThreeDiv {
+  height: 600px;
+  margin-top: -50px;
+}
+
+#iPadProContentEachVideoThreeDiv video {
+  height: 600px;
+}
+
+#iPadProContentEachVideoThreeReplayCover {
+  position: absolute;
+  height: 28px;
+  width: 85px;
+  background: linear-gradient(to right, #fafafa, #eeeeee);
+  bottom: 140px;
+  left: 50px;
+  z-index: 4;
+}
+
+#iPadProContentEachVideoThreeReplayHidden {
+  position: absolute;
+  height: 28px;
+  width: 85px;
+  background: linear-gradient(to right, #fafafa, #eeeeee);
+  bottom: 140px;
+  left: 50px;
+  z-index: 5;
+  cursor: pointer;
+  opacity: 0;
+  visibility: collapse;
+}
+
+#iPadProContentEachVideoThreeReplay {
+  position: absolute;
+  height: 28px;
+  width: 85px;
+  background: linear-gradient(to right, #fafafa, #eeeeee);
+  bottom: 140px;
+  left: 50px;
+  z-index: 5;
+  cursor: pointer;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.4s;
+}
+
+#iPadProContentEachVideoThreeReplay span {
+  color: #0066cc;
+  font-size: 16px;
+}
+
+#iPadProContentEachVideoThreeReplay:hover span {
+  text-decoration: underline;
+}
+
+#iPadProContentPencilTextDiv {
+  width: 280px;
+}
+
+#iPadProContentPencilTextDiv > span {
+  display: inline-block;
+  margin-top: 170px;
+}
+
+#iPadProContentEachVideoFourDiv {
+  width: 1350px;
+}
+
+#iPadProContentEachVideoFourDiv video {
+  height: 100%;
+}
+
+#iPadProContentEachVideoFourTriggerDiv {
+  position: absolute;
+  z-index: -1;
+  height: 100px;
+  width: 100px;
+  background-color: greenyellow;
+  left: 540px;
+}
+
+#iPadProContentLastTextDiv > span {
+  display: inline-block;
+  margin-top: 170px;
+}
+
+#iPadProContentDownToEdgeDiv {
+  height: 480px;
+}
+
+#iPadProContentDownToEdgeDiv img {
+  height: 480px;
+}
+
+.iPadProContentDarkDiv {
+  width: 500px;
+  height: 550px;
+  background-color: #fafafa;
+  margin-left: 100px;
+  margin-top: -50px;
+  text-align: center;
+  position: relative;
+}
+
+.iPadProContentDarkEachDiv {
+  position: relative;
+  display: inline-block;
+  width: 460px;
+  height: 260px;
+  margin-bottom: 15px;
+}
+
+.iPadProContentDarkEachDiv img {
+  height: 260px;
+  width: 460px;
+  filter: brightness(50%);
+}
+
+.iPadProContentDarkEachTextDiv {
+  display: inline-block;
+  height: 150px;
+  width: 400px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 68px;
+  text-align: center;
+}
+
+.iPadProContentDarkEachTextDiv > h3 {
+  color: white;
+}
+
+.iPadProContentDarkEachTextDiv a {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.iPadProContentDarkEachTextDiv:hover a {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.iPadProContentLastDiv {
+  background-color: #fafafa;
+  width: 1100px;
+  height: 1800px;
+  position: relative;
+}
+
+.iPadProContentLastOneDiv {
+  background-color: #fafafa;
+  width: 900px;
+  height: 250px;
+  display: inline-block;
+  margin-top: 110px;
+  margin-bottom: 200px;
+}
+
+.iPadProContentLastOneEachDiv {
+  display: inline-block;
+  height: 230px;
+  width: 180px;
+  margin-right: 20px;
+  background-color: #fafafa;
+  vertical-align: top;
+}
+
+.iPadProContentLastOneEachDiv img {
+  width: 65px;
+}

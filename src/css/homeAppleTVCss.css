@@ -1,0 +1,23 @@
+.homeAppleTVDiv {
+  cursor: pointer;
+}
+
+.homeAppleTVTextDiv {
+  background: black;
+  width: 100%;
+  text-align: center;
+}
+
+.homeAppleTVTextDiv img {
+  margin-top: 45px;
+  width: 500px;
+}
+
+.homeAppleTVTextDiv a {
+  color: #1271cf;
+  font-size: 20px;
+}
+
+.homeAppleTVAnimationDiv {
+  width: 100%;
+}

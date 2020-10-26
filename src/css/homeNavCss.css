@@ -1,0 +1,306 @@
+.homeNav {
+  background: #333333;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  position: sticky;
+  z-index: 1020;
+  width: 100%;
+}
+
+.homeNav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: table-row;
+}
+
+.homeNav li {
+  font-size: 15px;
+  padding: 0 31px;
+  text-decoration: none;
+  color: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 960px) {
+  .homeNav li {
+    padding: 0 15px;
+  }
+}
+
+#appleIcon {
+  width: 16px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+#searchIcon {
+  width: 22px;
+  height: 23px;
+}
+
+#searchIconBesideSearchInput {
+  width: 23px;
+  height: 24px;
+  margin: auto 10px;
+  cursor: pointer;
+}
+
+#bagIcon {
+  width: 23px;
+  height: 23px;
+}
+
+#crossIcon {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+.homeNav a {
+  color: #d6d6d6;
+}
+
+.homeNav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.searchDiv {
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  width: 350px;
+  visibility: collapse;
+}
+
+.searchDivShow {
+  opacity: 1;
+  display: flex;
+  position: absolute;
+  width: 500px;
+  transition: opacity 1s, width 1s ease-out;
+}
+
+.searchDivShow input {
+  background: #333333;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  width: 443px;
+}
+
+.searchDivShow input:focus {
+  outline: none;
+}
+
+.bagPopUp {
+  visibility: collapse;
+  position: absolute;
+  left: 72.3%;
+  top: 116%;
+  width: 280px;
+  border: 0.5px solid #d2d2d7;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.bagPopUpShow {
+  position: absolute;
+  left: 72.3%;
+  top: 116%;
+  width: 280px;
+  border: 0.5px solid #d2d2d7;
+  border-radius: 7px;
+  z-index: 1;
+  background-color: white;
+}
+
+.bagPopUpShow::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: white;
+  transform: rotate(45deg);
+  top: -6.3px;
+  left: 49%;
+  border-left: 0.5px solid #d2d2d7;
+  border-top: 0.5px solid #d2d2d7;
+}
+
+.productsInBag {
+  text-align: center;
+  margin: 25px auto;
+}
+
+.productsInBag span {
+  color: #808085;
+  font-size: 16px;
+}
+
+.navInBag a {
+  color: rgb(68, 118, 209);
+}
+
+.navInBag a:hover {
+  color: rgb(68, 118, 209);
+  text-decoration: underline;
+}
+
+.navInBag hr {
+  width: 90%;
+}
+
+.navInBag img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#bagIconLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.18s;
+}
+
+#bagIconLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+}
+
+#searchIconLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.16s;
+}
+
+#searchIconLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.02s;
+}
+
+#SupportLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.14s;
+}
+
+#SupportLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.04s;
+}
+
+#MusicLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.12s;
+}
+
+#MusicLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.06s;
+}
+
+#TVLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.1s;
+}
+
+#TVLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.08s;
+}
+
+#WatchLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.08s;
+}
+
+#WatchLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.1s;
+}
+
+#iphoneLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.06s;
+}
+
+#iphoneLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.12s;
+}
+
+#ipadLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.04s;
+}
+
+#ipadLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.14s;
+}
+
+#MacLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.02s;
+}
+
+#MacLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.16s;
+}
+
+#appleIconLi {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.06s, visibility 0.06s;
+}
+
+#appleIconLiGone {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.06s, visibility 0.06s;
+  transition-delay: 0.18s;
+}

@@ -1,0 +1,56 @@
+.iPhone11ProTenthSectorDiv {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #111111;
+}
+
+.iPhone11ProTenthSectorVideoDiv {
+  position: relative;
+  width: 92%;
+  height: 620px;
+  background-color: #111111;
+  display: inline-block;
+}
+
+.iPhone11ProTenthSectorVideoDiv video {
+  width: 100%;
+}
+
+.iPhone11ProTenthSectorVideoDiv h5 {
+  color: white;
+}
+
+.iPhone11ProTenthSectorVideoDiv h5:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#iPhone11ProTenthSectorVideoYes {
+  visibility: visible;
+}
+
+#iPhone11ProTenthSectorVideoNo {
+  visibility: collapse;
+}
+
+.iPhone11ProTenthSectorTextDiv {
+  width: 70%;
+  position: relative;
+  text-align: left;
+  display: inline-block;
+  background-color: #111111;
+}
+
+.iPhone11ProTenthSectorTextDiv h1 {
+  color: white;
+  font-size: 65px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.iPhone11ProTenthSectorTextDiv span {
+  color: white;
+  font-size: 24px;
+  font-weight: 560;
+}

@@ -1,0 +1,47 @@
+.iPhoneiPhone11SeriesDiv {
+  width: 100%;
+  margin-top: 180px;
+  margin-bottom: 180px;
+  text-align: end;
+}
+
+.iPhoneiPhone11SeriesTextDiv {
+  display: inline-block;
+  width: 330px;
+  height: 500px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.iPhoneiPhone11SeriesTextDiv h2,
+.iPhoneiPhone11SeriesTextDiv h1 {
+  color: black;
+}
+
+.iPhoneiPhone11SeriesTextDiv h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.iPhoneiPhone11SeriesTextDiv button {
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(0, 119, 237);
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.iPhoneiPhone11SeriesTextDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+.iPhoneiPhone11SeriesImageDiv {
+  display: inline-block;
+  width: 62%;
+  height: 700px;
+  background: url("../images/forIphone/iphone_iphone11series.png");
+  background-size: contain;
+}

@@ -1,0 +1,146 @@
+.sign_inDiv {
+  width: 100%;
+  position: relative;
+}
+
+.sign_inDiv h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: 550;
+  margin-top: 70px;
+  margin-left: 160px;
+}
+
+.sign_inFormDiv {
+  margin-left: 160px;
+  width: 400px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.sign_inFormEachDiv {
+  position: relative;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: text;
+}
+
+.sign_inFormEachDivFocus {
+  position: relative;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  border: 1px solid rgb(51, 51, 231);
+  box-shadow: 0 0 0 2px lightblue;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: text;
+}
+
+.sign_inFormEachDiv input {
+  width: 90%;
+  border: none;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-40%);
+  left: 10px;
+  z-index: 2;
+}
+
+.sign_inFormEachDivFocus input {
+  width: 90%;
+  border: none;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-40%);
+  left: 10px;
+  z-index: 2;
+}
+
+.sign_inFormEachDivFocus input:focus {
+  outline: none;
+}
+
+.sign_inFormEachLabel {
+  color: #888888;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  left: 20px;
+  z-index: 3;
+}
+
+.sign_inFormEachLabelFocus {
+  color: #888888;
+  position: absolute;
+  top: 0;
+  font-size: 12px;
+  left: 10px;
+  top: 5px;
+  z-index: 3;
+  transition: all 0.4s;
+}
+
+.sign_inFormEachDiv input:focus {
+  outline: none;
+}
+
+.sign_inFormDiv p {
+  margin-top: 20px;
+}
+
+.sign_inFormButton {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(38, 137, 215);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid rgb(22, 120, 196);
+  margin-top: 20px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.sign_inFormButton:hover {
+  background-color: rgb(59, 147, 214);
+}
+
+.sign_inFormDiv a {
+  font-size: 18px;
+  color: #0070c9;
+}
+
+.sign_inFormDiv a:hover {
+  color: #0070c9;
+}
+
+.sign_inFooterDiv {
+  margin-top: 80px;
+  width: 100%;
+}
+
+.sign_inFooterDiv hr {
+  border: 0.4px solid #aaaaaa;
+  width: 100%;
+}
+
+.sign_inFooterDiv h5 {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 160px;
+}
+
+.sign_inFooterDiv a {
+  color: #0070c9;
+}
+
+.sign_inFooterDiv a:hover {
+  color: #0070c9;
+}

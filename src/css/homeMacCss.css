@@ -1,0 +1,24 @@
+.homeMacDiv {
+  cursor: pointer;
+}
+
+.homeMacTextDiv {
+  width: 100%;
+  margin-top: 70px;
+  background: white;
+  text-align: center;
+}
+
+.homeMacTextDiv h1 {
+  color: black;
+  font-size: 65px;
+}
+
+.homeMacTextDiv a {
+  color: #1271cf;
+  font-size: 20px;
+}
+
+.homeMacAnimationDiv {
+  width: 100%;
+}

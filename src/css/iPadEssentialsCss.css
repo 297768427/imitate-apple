@@ -1,0 +1,56 @@
+.iPadEssentialsDiv {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.iPadEssentialsTitleDiv {
+  display: inline-block;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.iPadEssentialsTitleDiv h1 {
+  font-size: 50px;
+}
+
+.iPadEssentialsContentEachDiv {
+  display: inline-block;
+  width: 45%;
+  height: 600px;
+  background-color: white;
+  margin: 10px 15px;
+  vertical-align: top;
+  position: relative;
+}
+
+.iPadEssentialsContentEachDiv img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+
+/* Absolutely positioned elements will hop on out of the DOM flow and go instead in relation to it's closest relative parent. */
+
+#ipad_keyboardImage {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.iPadEssentialsContentEachDiv h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.iPadEssentialsContentEachDiv span {
+  font-size: 22px;
+}
+
+.iPadEssentialsContentEachDiv a {
+  font-size: 19px;
+  color: #0066cc;
+}

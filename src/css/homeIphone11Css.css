@@ -1,0 +1,16 @@
+.homeIphone11_text_div {
+  width: 100%;
+  margin-top: 70px;
+  background: white;
+  text-align: center;
+}
+
+.homeIphone11_text_div h1 {
+  color: black;
+  font-size: 65px;
+}
+
+.homeIphone11_text_div a {
+  color: #1271cf;
+  font-size: 20px;
+}

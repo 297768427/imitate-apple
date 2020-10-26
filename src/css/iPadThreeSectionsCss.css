@@ -1,0 +1,29 @@
+.iPadThreeSectionsDiv {
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.iPadThreeSectionsEachDiv {
+  display: inline-block;
+  width: 320px;
+  height: 320px;
+  background-color: #f2f2f2;
+  margin: 50px 30px;
+  vertical-align: top;
+}
+
+.iPadThreeSectionsEachDiv img {
+  height: 65px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.iPadThreeSectionsEachDiv span {
+  font-size: 20px;
+}
+
+.iPadThreeSectionsEachDiv a {
+  font-size: 20px;
+  color: #0066cc;
+}

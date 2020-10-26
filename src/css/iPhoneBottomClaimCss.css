@@ -1,0 +1,19 @@
+.iPhoneBottomClaimDiv {
+  width: 100%;
+  background-color: #f5f5f7;
+  text-align: center;
+}
+
+.iPhoneBottomClaimTextDiv {
+  display: inline-block;
+  width: 80%;
+  height: 680px;
+  background-color: #f5f5f7;
+  margin: 25px 0;
+  text-align: left;
+}
+
+.iPhoneBottomClaimTextDiv p {
+  color: #a5a5a9;
+  font-size: 14px;
+}

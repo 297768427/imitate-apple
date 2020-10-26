@@ -1,0 +1,87 @@
+.iPhone11ProSecondSectorDiv {
+  text-align: center;
+  height: 1120px;
+  width: 100%;
+  background-color: #111111;
+  position: relative;
+  z-index: 2;
+}
+
+.iPhone11ProSecondSectorThreeImagesDiv {
+  height: 590px;
+  width: 98%;
+  background-color: #111111;
+  display: inline-block;
+}
+
+.iPhone11ProSecondSectorThreeImagesEachDiv {
+  vertical-align: top;
+  display: inline-block;
+  margin: auto 10px;
+  width: 380px;
+}
+
+.iPhone11ProSecondSectorThreeImagesEachDiv img {
+  width: 380px;
+}
+
+.iPhone11ProSecondSectorLeftDiv {
+  vertical-align: top;
+  display: inline-block;
+  height: 498px;
+  width: 530px;
+  background-color: black;
+  margin-right: 20px;
+}
+
+.iPhone11ProSecondSectorLeftTextDiv {
+  height: 400px;
+  width: 420px;
+  background-color: black;
+  display: inline-block;
+  margin-top: 50px;
+  text-align: start;
+  z-index: 1000;
+}
+
+.iPhone11ProSecondSectorLeftTextDiv > h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.iPhone11ProSecondSectorLeftTextDiv > p {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: 550;
+}
+
+.iPhone11ProSecondSectorLeftTextDiv button {
+  border: 2px solid #aaaaaa;
+  border-radius: 40px;
+  background-color: black;
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  height: 65px;
+}
+
+.iPhone11ProSecondSectorLeftTextDiv button:hover {
+  border: 4px solid white;
+  cursor: pointer;
+  color: white;
+  transition: border 0.3s, color 0.3s;
+}
+
+.iPhone11ProSecondSectorRightDiv {
+  vertical-align: top;
+  display: inline-block;
+  height: 498px;
+  width: 610px;
+  background-color: greenyellow;
+  margin-left: 20px;
+}
+
+.iPhone11ProSecondSectorRightDiv > img {
+  width: 100%;
+}

@@ -1,0 +1,71 @@
+.iPadProNavDiv {
+  width: 100%;
+  height: 50px;
+  background-color: #fefefe;
+  border-bottom: 0.7px solid rgb(199, 194, 194);
+  top: 0;
+  z-index: 1050;
+}
+
+.iPadProNavLeftDiv {
+  width: 200px;
+  background-color: #fefefe;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-left: 190px;
+}
+
+.iPadProNavLeftDiv a {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.iPadProNavLeftDiv a:hover {
+  font-size: 20px;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.iPadProNavRightDiv {
+  width: 380px;
+  height: 30px;
+  background-color: #fefefe;
+  margin-left: 54%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.iPadProNavRightDiv a {
+  font-size: 13px;
+  color: black;
+  margin-right: 24px;
+}
+
+.iPadProNavRightDiv a:hover {
+  text-decoration: none;
+}
+
+.iPadProNavRightDiv button {
+  border-radius: 20px;
+  border: 0;
+  width: 55px;
+  background-color: #0077ed;
+  color: white;
+  display: inline-block;
+  margin: 4px;
+  font-size: 14px;
+}
+
+.iPadProNavRightDiv button:hover {
+  background-color: rgb(46, 140, 235);
+}
+
+hr {
+  clear: both;
+  width: 75%;
+}
